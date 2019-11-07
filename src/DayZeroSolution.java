@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * @author somuc
+ * @author Tylerdclark
  *
  */
 public class DayZeroSolution {
@@ -14,13 +14,14 @@ public class DayZeroSolution {
 		String inputString = scan.nextLine(); 
 
 		// Close the scanner object, because we've finished reading 
-        // all of the input from stdin needed for this challenge.
+        	// all of the input from stdin needed for this challenge.
 		scan.close(); 
       
 		// Print a string literal saying "Hello, World." to stdout.
 		System.out.println("Hello, World.");
-        System.out.println(inputString);
-	    // TODO: Write a line of code here that prints the contents of inputString to stdout.
+		
+		// Print the value stored in inputString
+        	System.out.println(inputString);
 	}
 }
 
