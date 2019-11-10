@@ -1,18 +1,9 @@
-/*
- * File:
- * Author: Tyler Clark
- * Date: 
- * Purpose:
- */
-
-/**
- * @author somuc
- *
- */
-
 import java.io.*;
 import java.util.*;
-
+/**
+ * @author Tylerdclark
+ *
+ */
 interface AdvancedArithmetic{
    int divisorSum(int n);
 }
