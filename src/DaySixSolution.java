@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * @author somuc
+ * @author Tylerdclark
  *
  */
 public class DaySixSolution {

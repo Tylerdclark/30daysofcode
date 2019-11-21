@@ -1,7 +1,7 @@
 	import java.io.*;
 	import java.util.*;
 /**
- * @author somuc
+ * @author Tylerdclark
  *
  */
 public class DayFourSolution {
