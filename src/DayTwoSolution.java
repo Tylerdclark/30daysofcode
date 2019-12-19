@@ -21,7 +21,7 @@ public class DayTwoSolution {
 	        double calculatedTax = meal_cost * tax_percent / 100;  
 	        double totalCost = meal_cost + calculatedTip + calculatedTax;
 
-	        //using math .round method to round to the nearest decima
+	        //using math .round method to round to the nearest decimal
 	        System.out.println(Math.round(totalCost));
 	    }
 
