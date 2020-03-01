@@ -1,3 +1,9 @@
+package day13;
+
+import java.util.Scanner;
+
+import day13.DayThirteenSolution.Book;
+import day13.DayThirteenSolution.MyBook;
 
 /**
  * @author somuc
@@ -19,7 +25,7 @@ public class DayThirteenSolution {
 
 	// Declare your class here. Do not use the 'public' access modifier.
 	    // Declare the price instance variable
-	class MyBook extends Book{
+	public class MyBook extends Book{
 
 	    int price;
 	    /**   
@@ -48,8 +54,8 @@ public class DayThirteenSolution {
 	// End class
 	}
 	public class Solution {
-	   
-	    public static void main(String[] args) {
+		// removed static to suppress error   
+	    public void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 	        String title = scanner.nextLine();
 	        String author = scanner.nextLine();
@@ -60,4 +66,5 @@ public class DayThirteenSolution {
 	        book.display();
 	    }
 	}
+
 }
