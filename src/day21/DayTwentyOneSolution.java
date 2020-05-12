@@ -1,3 +1,5 @@
+package day21;
+
 import java.util.Scanner;
 
 /**
@@ -34,7 +36,7 @@ public class DayTwentyOneSolution {
 	        intPrinter.printArray( intArray  );
 	        stringPrinter.printArray( stringArray );
 	        if(Printer.class.getDeclaredMethods().length > 1){
-	            System.out.println("The Printer class should only have 1 method named printArray.");
+	            System.out.println("The day21.Printer class should only have 1 method named printArray.");
 	        }
 	    } 
 	}

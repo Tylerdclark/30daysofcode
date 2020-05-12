@@ -1,3 +1,5 @@
+package day0;
+
 import java.util.Scanner;
 
 /**

@@ -1,3 +1,5 @@
+package day16;
+
 import java.util.Scanner;
 
 /**

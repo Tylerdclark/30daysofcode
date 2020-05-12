@@ -1,5 +1,6 @@
-	import java.io.*;
-	import java.util.*;
+package day4;
+
+import java.util.*;
 /**
  * @author Tylerdclark
  *
