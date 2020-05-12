@@ -7,3 +7,7 @@
 .settings/org.eclipse.jdt.ui.prefs
 
 .DS_Store
+
+.idea/
+
+30daysofcode.iml
